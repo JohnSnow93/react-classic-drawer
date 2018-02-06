@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {createPortal} from 'react-dom';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import PropTypes from 'prop-types';
+import './style.scss' ;
 
 
 class ReactSimpleDrawer extends Component {
