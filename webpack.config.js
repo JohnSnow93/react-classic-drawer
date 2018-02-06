@@ -22,12 +22,15 @@ module.exports = {
         }
       }, {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'sass-loader']
+        })
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin("[name].css")
+    new ExtractTextPlugin("style.css")
   ],
   externals: {
     'react': 'commonjs react', // this line is just to use the React dependency of our parent-testing-project instead of using our own React.
