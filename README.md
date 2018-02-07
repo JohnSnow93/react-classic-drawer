@@ -6,7 +6,7 @@ A classic and simple implement of react drawer;
 
 ## install
 ```
-npm install --save react-classic-drawer
+npm install react-classic-drawer react-addons-css-transition-group --save
 ```
 
 ## usage
