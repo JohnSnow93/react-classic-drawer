@@ -1,7 +1,7 @@
 {
     "name": "react-classic-drawer",
-    "version": "1.1.0",
-    "description": "A ",
+    "version": "1.1.1",
+    "description": "A react drawer easy to use",
     "main": "build/index.js",
     "peerDependencies": {
         "react": "^16.0.0",
@@ -9,12 +9,7 @@
         "react-addons-css-transition-group": "^15.6.2",
         "prop-types": "^15.6.0"
     },
-    "dependencies": {
-        "extract-loader": "^1.0.2",
-        "extract-text-webpack-plugin": "^3.0.2",
-        "file-loader": "^1.1.6",
-        "style-loader": "^0.20.1"
-    },
+    "dependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack --watch",
@@ -46,7 +41,11 @@
         "prop-types": "^15.6.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
-        "react-addons-css-transition-group": "^15.6.2"
+        "react-addons-css-transition-group": "^15.6.2",
+        "extract-loader": "^1.0.2",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "file-loader": "^1.1.6",
+        "style-loader": "^0.20.1"
     },
     "babel": {
         "presets": [
