@@ -1,4 +1,4 @@
-.react-amazing-drawer-mask {
+.react-classic-drawer-mask {
   height: 100%;
   width: 100%;
   position: fixed;
@@ -8,53 +8,53 @@
   overflow: hidden;
   animation-fill-mode: forwards;
   background: rgba(0, 0, 0, 0.5); }
-  .react-amazing-drawer-mask .content {
+  .react-classic-drawer-mask .content {
     position: absolute;
     background: #FFF;
     overflow: auto; }
-    .react-amazing-drawer-mask .content.right {
+    .react-classic-drawer-mask .content.right {
       right: 0;
       height: 100%;
       width: 600px; }
-    .react-amazing-drawer-mask .content.left {
+    .react-classic-drawer-mask .content.left {
       left: 0;
       height: 100%;
       width: 600px; }
-    .react-amazing-drawer-mask .content.top {
+    .react-classic-drawer-mask .content.top {
       top: 0;
       width: 100%;
       height: 450px; }
-    .react-amazing-drawer-mask .content.bottom {
+    .react-classic-drawer-mask .content.bottom {
       bottom: 0;
       width: 100%;
       height: 450px; }
 
-.react-amazing-drawer-enter.react-amazing-drawer-mask, .react-amazing-drawer-leave-active.react-amazing-drawer-mask, .react-amazing-drawer-appear.react-amazing-drawer-mask {
+.react-classic-drawer-enter.react-classic-drawer-mask, .react-classic-drawer-leave-active.react-classic-drawer-mask, .react-classic-drawer-appear.react-classic-drawer-mask {
   background: none;
   animation-name: maskDisappear; }
-  .react-amazing-drawer-enter.react-amazing-drawer-mask .content, .react-amazing-drawer-leave-active.react-amazing-drawer-mask .content, .react-amazing-drawer-appear.react-amazing-drawer-mask .content {
+  .react-classic-drawer-enter.react-classic-drawer-mask .content, .react-classic-drawer-leave-active.react-classic-drawer-mask .content, .react-classic-drawer-appear.react-classic-drawer-mask .content {
     animation-duration: 0.5s; }
-    .react-amazing-drawer-enter.react-amazing-drawer-mask .content.right, .react-amazing-drawer-leave-active.react-amazing-drawer-mask .content.right, .react-amazing-drawer-appear.react-amazing-drawer-mask .content.right {
+    .react-classic-drawer-enter.react-classic-drawer-mask .content.right, .react-classic-drawer-leave-active.react-classic-drawer-mask .content.right, .react-classic-drawer-appear.react-classic-drawer-mask .content.right {
       animation-name: rightOut; }
-    .react-amazing-drawer-enter.react-amazing-drawer-mask .content.left, .react-amazing-drawer-leave-active.react-amazing-drawer-mask .content.left, .react-amazing-drawer-appear.react-amazing-drawer-mask .content.left {
+    .react-classic-drawer-enter.react-classic-drawer-mask .content.left, .react-classic-drawer-leave-active.react-classic-drawer-mask .content.left, .react-classic-drawer-appear.react-classic-drawer-mask .content.left {
       animation-name: leftOut; }
-    .react-amazing-drawer-enter.react-amazing-drawer-mask .content.top, .react-amazing-drawer-leave-active.react-amazing-drawer-mask .content.top, .react-amazing-drawer-appear.react-amazing-drawer-mask .content.top {
+    .react-classic-drawer-enter.react-classic-drawer-mask .content.top, .react-classic-drawer-leave-active.react-classic-drawer-mask .content.top, .react-classic-drawer-appear.react-classic-drawer-mask .content.top {
       animation-name: topOut; }
-    .react-amazing-drawer-enter.react-amazing-drawer-mask .content.bottom, .react-amazing-drawer-leave-active.react-amazing-drawer-mask .content.bottom, .react-amazing-drawer-appear.react-amazing-drawer-mask .content.bottom {
+    .react-classic-drawer-enter.react-classic-drawer-mask .content.bottom, .react-classic-drawer-leave-active.react-classic-drawer-mask .content.bottom, .react-classic-drawer-appear.react-classic-drawer-mask .content.bottom {
       animation-name: bottomOut; }
 
-.react-amazing-drawer-enter-active.react-amazing-drawer-mask, .react-amazing-drawer-appear-active.react-amazing-drawer-mask {
+.react-classic-drawer-enter-active.react-classic-drawer-mask, .react-classic-drawer-appear-active.react-classic-drawer-mask {
   animation-name: maskAppear;
   background: rgba(0, 0, 0, 0.5); }
-  .react-amazing-drawer-enter-active.react-amazing-drawer-mask .content, .react-amazing-drawer-appear-active.react-amazing-drawer-mask .content {
+  .react-classic-drawer-enter-active.react-classic-drawer-mask .content, .react-classic-drawer-appear-active.react-classic-drawer-mask .content {
     animation-duration: 0.5s; }
-    .react-amazing-drawer-enter-active.react-amazing-drawer-mask .content.right, .react-amazing-drawer-appear-active.react-amazing-drawer-mask .content.right {
+    .react-classic-drawer-enter-active.react-classic-drawer-mask .content.right, .react-classic-drawer-appear-active.react-classic-drawer-mask .content.right {
       animation-name: rightIn; }
-    .react-amazing-drawer-enter-active.react-amazing-drawer-mask .content.left, .react-amazing-drawer-appear-active.react-amazing-drawer-mask .content.left {
+    .react-classic-drawer-enter-active.react-classic-drawer-mask .content.left, .react-classic-drawer-appear-active.react-classic-drawer-mask .content.left {
       animation-name: leftIn; }
-    .react-amazing-drawer-enter-active.react-amazing-drawer-mask .content.top, .react-amazing-drawer-appear-active.react-amazing-drawer-mask .content.top {
+    .react-classic-drawer-enter-active.react-classic-drawer-mask .content.top, .react-classic-drawer-appear-active.react-classic-drawer-mask .content.top {
       animation-name: topIn; }
-    .react-amazing-drawer-enter-active.react-amazing-drawer-mask .content.bottom, .react-amazing-drawer-appear-active.react-amazing-drawer-mask .content.bottom {
+    .react-classic-drawer-enter-active.react-classic-drawer-mask .content.bottom, .react-classic-drawer-appear-active.react-classic-drawer-mask .content.bottom {
       animation-name: bottomIn; }
 
 @keyframes leftIn {

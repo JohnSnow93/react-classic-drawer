@@ -25,9 +25,7 @@ class ReactSimpleDrawer extends Component {
    * @param e
    */
   onClose = (e) => {
-    console.log('close');
     if(typeof this.props.onClose === 'function'){
-
       this.props.onClose()
     }
   }
@@ -49,7 +47,7 @@ class ReactSimpleDrawer extends Component {
     }
     return createPortal(
       <ReactCSSTransitionGroup
-        transitionName="react-amazing-drawer"
+        transitionName="react-classic-drawer"
         component="div"
         transitionEnterTimeout={duration}
         transitionLeaveTimeout={duration}
@@ -59,8 +57,8 @@ class ReactSimpleDrawer extends Component {
         {
           visible ? <div
             onClick={this.onClose}
-            key="react-amazing-drawer"
-            className="react-amazing-drawer-mask"
+            key="react-classic-drawer"
+            className="react-classic-drawer-mask"
             style={{
               animationDuration: `${duration}ms`
             }}

@@ -111,9 +111,7 @@ var ReactSimpleDrawer = function (_Component) {
     var _this = _possibleConstructorReturn(this, (ReactSimpleDrawer.__proto__ || Object.getPrototypeOf(ReactSimpleDrawer)).call(this, props));
 
     _this.onClose = function (e) {
-      console.log('close');
       if (typeof _this.props.onClose === 'function') {
-
         _this.props.onClose();
       }
     };
@@ -165,7 +163,7 @@ var ReactSimpleDrawer = function (_Component) {
       return Object(__WEBPACK_IMPORTED_MODULE_1_react_dom__["createPortal"])(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         __WEBPACK_IMPORTED_MODULE_2_react_addons_css_transition_group___default.a,
         {
-          transitionName: 'react-amazing-drawer',
+          transitionName: 'react-classic-drawer',
           component: 'div',
           transitionEnterTimeout: duration,
           transitionLeaveTimeout: duration,
@@ -176,8 +174,8 @@ var ReactSimpleDrawer = function (_Component) {
           'div',
           {
             onClick: this.onClose,
-            key: 'react-amazing-drawer',
-            className: 'react-amazing-drawer-mask',
+            key: 'react-classic-drawer',
+            className: 'react-classic-drawer-mask',
             style: {
               animationDuration: duration + 'ms'
             }

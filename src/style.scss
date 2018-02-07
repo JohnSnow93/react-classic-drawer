@@ -1,4 +1,4 @@
-.react-amazing-drawer-mask {
+.react-classic-drawer-mask {
     height: 100%;
     width: 100%;
     position: fixed;
@@ -34,9 +34,9 @@
       }
     }
   }
-  
-  .react-amazing-drawer-enter, .react-amazing-drawer-leave-active, .react-amazing-drawer-appear {
-    &.react-amazing-drawer-mask {
+
+  .react-classic-drawer-enter, .react-classic-drawer-leave-active, .react-classic-drawer-appear {
+    &.react-classic-drawer-mask {
         background: none;
         animation-name: maskDisappear;
         .content {
@@ -56,9 +56,9 @@
       }
     }
   }
-  
-  .react-amazing-drawer-enter-active, .react-amazing-drawer-appear-active {
-    &.react-amazing-drawer-mask {
+
+  .react-classic-drawer-enter-active, .react-classic-drawer-appear-active {
+    &.react-classic-drawer-mask {
       animation-name: maskAppear;
       background: rgba(0,0,0,0.5);
       .content {
@@ -78,9 +78,9 @@
       }
     }
   }
-  
-  
-  
+
+
+
   @keyframes leftIn {
     0% {
       opacity: 0;
@@ -91,7 +91,7 @@
       left:0;
     }
   }
-  
+
   @keyframes leftOut {
     0% {
       opacity: 1;
@@ -102,7 +102,7 @@
       left:-100%;
     }
   }
-  
+
   @keyframes rightIn {
     0% {
       opacity: 0;
@@ -113,7 +113,7 @@
       right:0;
     }
   }
-  
+
   @keyframes rightOut {
     0% {
       opacity: 1;
@@ -124,7 +124,7 @@
       right:-100%;
     }
   }
-  
+
   @keyframes topIn {
     0% {
       opacity: 0;
@@ -135,7 +135,7 @@
       top:0;
     }
   }
-  
+
   @keyframes topOut {
     0% {
       opacity: 1;
@@ -146,8 +146,8 @@
       top:-100%;
     }
   }
-  
-  
+
+
   @keyframes bottomIn {
     0% {
       opacity: 0;
@@ -158,7 +158,7 @@
       bottom:0;
     }
   }
-  
+
   @keyframes bottomOut {
     0% {
       opacity: 1;
@@ -169,7 +169,7 @@
       bottom:-100%;
     }
   }
-  
+
   @keyframes maskAppear {
     0% {
       background: rgba(0,0,0,0);
@@ -178,7 +178,7 @@
       background: rgba(0,0,0,0.5);
     }
   }
-  
+
   @keyframes maskDisappear {
     0% {
       background: rgba(0,0,0,0.5);
@@ -187,4 +187,3 @@
       background: rgba(0,0,0,0);
     }
   }
-  
