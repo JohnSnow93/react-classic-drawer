@@ -152,7 +152,8 @@ var ReactSimpleDrawer = function (_Component) {
           visible = _props.visible,
           width = _props.width,
           duration = _props.duration,
-          direction = _props.direction;
+          direction = _props.direction,
+          contentClass = _props.contentClass;
 
       var directionConstant = {
         TOP: 450,
@@ -183,7 +184,7 @@ var ReactSimpleDrawer = function (_Component) {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             {
-              className: 'content ' + direction.toLowerCase(),
+              className: 'content ' + direction.toLowerCase() + ' ' + contentClass,
               onClick: this.preventClick,
               style: {
                 animationDuration: duration + 'ms'

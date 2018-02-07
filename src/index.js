@@ -38,7 +38,7 @@ class ReactSimpleDrawer extends Component {
     e.stopPropagation();
   }
   render(){
-    const { visible, width, duration, direction } = this.props;
+    const { visible, width, duration, direction, contentClass } = this.props;
     const directionConstant = {
       TOP: 450,
       BOTTOM: 450,
@@ -64,7 +64,7 @@ class ReactSimpleDrawer extends Component {
             }}
           >
             <div
-              className={`content ${direction.toLowerCase()}`}
+              className={`content ${direction.toLowerCase()} ${contentClass}`}
               onClick={this.preventClick}
               style={{
                 animationDuration: `${duration}ms`
