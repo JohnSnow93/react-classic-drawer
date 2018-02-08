@@ -1,6 +1,6 @@
 {
     "name": "react-classic-drawer",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "A react drawer easy to use",
     "main": "build/index.js",
     "peerDependencies": {
@@ -26,6 +26,7 @@
     "bugs": {
       "url": "https://github.com/JohnSnow93/react-classic-drawer/issues"
     },
+    "keywords": [ "react", "drawer", "slider", "react-drawer" ],
     "devDependencies": {
         "babel-cli": "^6.24.1",
         "babel-core": "^6.24.1",

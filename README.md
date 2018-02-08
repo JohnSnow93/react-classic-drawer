@@ -2,12 +2,15 @@
 
 A classic and simple implement of react drawer;
 
-** Note: Your React version should be at least 16+; **
+**Note: Your React version should be at least 16+！**
 
 ## install
 ```
 npm install react-classic-drawer react-addons-css-transition-group --save
 ```
+## example
+
+[https://johnsnow93.github.io/react-classic-drawer/](https://johnsnow93.github.io/react-classic-drawer/)
 
 ## usage
 
